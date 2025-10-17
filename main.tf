@@ -1,3 +1,10 @@
+provider "aws" {
+
+  region = "ap-south-1"
+
+}
+
+
 resource "aws_vpc" "myVPC" {
 
     cidr_block = var.cidr
